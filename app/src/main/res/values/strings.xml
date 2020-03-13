@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MOC Homework 1</string>
+    <string name="student_name">Alex Leidwein</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="navigate">NAVIGATE</string>
+    <string name="initial_value">0</string>
+</resources>

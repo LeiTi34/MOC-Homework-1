@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student_name"/>
+
+    <EditText
+        android:id="@+id/first_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initial_value"/>
+
+    <EditText
+        android:id="@+id/second_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initial_value"/>
+
+    <Button
+        android:id="@+id/calc_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"/>
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/initial_value"/>
+
+    <Button
+        android:id="@+id/navigate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/navigate"/>
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="@string/initial_value"/>
+
+    <TextView
+        android:id="@+id/seek_bar_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/initial_value"/>
+</LinearLayout>
